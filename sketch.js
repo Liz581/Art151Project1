@@ -59,10 +59,17 @@ function mousePressed() {
     val2 = 65;
     val3 = 47;
   }
-  else {
+  // Turn black
+  else if (val1 === 87 && val2 === 65 && val3 === 47) {
     val1 = 0;
     val2 = 0;
     val3 = 0;
+  }
+  // Turn white
+  else {
+    val1 = 255;
+    val2 = 255;
+    val3 = 255;
   }
 }
 
