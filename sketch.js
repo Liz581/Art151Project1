@@ -85,7 +85,6 @@ function draw() {
     for (let j = 0; j < 10; j++) {
       let x = j *100;
       let y = i *100;
-      let index = i * 10 + j; // find the index
       
       if (inside(x, y, 100,100)){
         // were inside
