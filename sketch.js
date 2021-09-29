@@ -51,7 +51,6 @@ function mousePressed() {
     val1 = 255;
     val2 = 0;
     val3 = 255;
-    fill(255, 0, 255);
   }
   // Turn brown
   else if (val1 === 255 && val2 === 0 && val3 === 255) {
@@ -107,10 +106,4 @@ function draw() {
     }
   }
   
-  // for(let i =0; i < height; i++){
-  //   colorMode(HSB);
-  //   let h = map(i, 0, height, 100, 180);
-  //   stroke(h, 80,80);
-  //   line(700, i, 1000, i);
-  // }
 }
